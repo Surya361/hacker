@@ -1,0 +1,20 @@
+#include<stdio.h>
+int ma(int max)
+{
+	return (max/2) * (max - (max/2)); 
+}
+void main()
+{
+	int t;
+	scanf("%d",&t);
+	while(t != 0)
+	{
+		int k;
+		scanf("%d",&k);
+		int max = ma(k);
+		printf("%d",max);
+		t--;
+	}
+}
+
+
